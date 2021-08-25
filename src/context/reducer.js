@@ -28,6 +28,7 @@ const reducer = (state, action) => {
       return {
         ...state,
         error,
+        searchedOnce: true,
       };
     }
 
