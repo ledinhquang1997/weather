@@ -36,7 +36,8 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "server": "npm run build && node src/server/server.js",
-        "lint": "eslint src/**/*.js --fix"
+        "lint": "eslint src/**/*.js --fix",
+        "test:coverage": "npm run test -- --coverage --watchAll=false"
     },
     "eslintConfig": {
         "extends": [

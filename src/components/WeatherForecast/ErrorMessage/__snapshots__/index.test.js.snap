@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error message componen shold render as expected 1`] = `
+<div
+  class="sc-bdnxRM cpWKGI"
+>
+  <p
+    class="sc-gtsrHT gtXmqm"
+  >
+    shold render as expected
+  </p>
+</div>
+`;

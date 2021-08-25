@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   width: 100%;
 `;
 
-export const List = styled.div`
+export const List = styled.ul`
   margin: auto;
   display: flex;
   max-width: 1000px;

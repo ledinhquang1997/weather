@@ -45,8 +45,8 @@ const Search = () => {
 
   return (
     <Wrapper showResults={searchedOnce} onSubmit={searchClickHandler}>
-      <Input ref={inputRef}></Input>
-      <Icon icon={faSearch} onClick={searchClickHandler}></Icon>
+      <Input placeholder="Please enter city name..." ref={inputRef}></Input>
+      <Icon data-testid="submitButton" icon={faSearch} onClick={searchClickHandler}></Icon>
     </Wrapper>
   );
 };

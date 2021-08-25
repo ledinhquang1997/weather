@@ -5,7 +5,7 @@ const WeatherItem = ({ item }) => {
   const { applicable_date, weather_state_name, weather_state_abbr, min_temp, max_temp } = item;
 
   return (
-    <Wrapper>
+    <Wrapper className="weather-item">
       <Day>{getDay(applicable_date)}</Day>
       <WeatherState>{weather_state_name}</WeatherState>
       <WeatherImage

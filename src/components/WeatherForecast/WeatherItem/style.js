@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { media } from '../../../common/styles/media';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
