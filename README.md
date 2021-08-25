@@ -6,7 +6,6 @@ A simple website to search weather info using React: https://dummyweather.heroku
 ```
 nvm use 14
 npm install
-npm run build
 npm start
 ```
 
