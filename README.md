@@ -1,6 +1,6 @@
 # Introduction
 
-A simple website to search weather using React: https://dummyweather.herokuapp.com/
+A simple website to search weather info using React: https://dummyweather.herokuapp.com/
 
 # Installation
 ```
